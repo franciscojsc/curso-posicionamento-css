@@ -1,0 +1,39 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elementExample_frist {
+    background-color: rgb(142, 68, 173);
+    position: absolute;
+    right: 0;
+}
+
+.elementExample_second {
+    background-color: rgb(86, 112, 37);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); /* 50% é em relação ao elemento */
+}
+
+.elementExample_last {
+    background-color: rgb(192, 58, 43);
+    position: absolute;
+}
+
+.elementExample_internal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(16, 82, 112);
+}
